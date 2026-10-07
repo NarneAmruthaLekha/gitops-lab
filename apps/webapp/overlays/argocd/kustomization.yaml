@@ -4,6 +4,7 @@ namespace: webapp-argocd
 resources:
   - ../../base
   - namespace.yaml
+  - configmap.yaml
 replicas:
   - name: webapp
     count: 2
